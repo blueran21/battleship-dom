@@ -1,0 +1,23 @@
+/* Your code here */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 60px);
+    grid-template-rows: repeat(9, 60px);
+    justify-content: center;
+}
+
+.cell {
+    border: 1px black solid;
+    margin: 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    text-align: center;
+}
+
+#reset-game {
+    margin: 10px;
+}
